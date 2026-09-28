@@ -1,0 +1,13 @@
+vname: COMP3104 CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Confirm CI is running
+        run: echo "COMP3104 GitHub Actions workflow is working"
