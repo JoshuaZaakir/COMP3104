@@ -1,4 +1,4 @@
-vname: COMP3104 CI
+name: COMP3104 CI
 
 on:
   push:
